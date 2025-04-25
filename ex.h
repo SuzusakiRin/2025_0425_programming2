@@ -1,7 +1,3 @@
-//
-// Created by sakur on 25/04/25.
-//
-
 #ifndef EX_H
 #define EX_H
 
