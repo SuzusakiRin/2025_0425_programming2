@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 void printsort(int x[5]) {
+    // AI補完に屈せずに自分で考えれた！！！偉い！！！！！！！
     for (int i = 0; i < 5; i++) {
-        for (int j = 0; j < 5 - i - 1; j++) {
-            if (x[j] > x[j + 1]) {
-                int a = x[j];
-                x[j] = x[j + 1];
-                x[j + 1] = a;
+        for (int j = 0; j < 5; j++) {
+            if (x[i] < x[j]) {
+                int a = x[i];
+                x[i] = x[j];
+                x[j] = a;
             }
         }
     }
