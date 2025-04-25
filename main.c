@@ -6,6 +6,6 @@ int main(void) {
     ex1();
     printf("---------------ââèK2---------------\n");
     ex2();
-    // URL "https://github.com/SuzusakiRin/2025_0425_Programming2"
+    // "https://github.com/SuzusakiRin/2025_0425_Programming2"
     return 0;
 }
